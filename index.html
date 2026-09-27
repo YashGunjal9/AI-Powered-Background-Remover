@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AstreTech AI Background Remover</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" href="AstreTech Black BG PNG Rounded Logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <img src="AstreTech Black BG PNG Rounded Logo.png" alt="AstreTech Logo">
+
+                <h1>AstreTech</h1>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="hero-section">
+
+                <h2>AI-Powered Background Remover</h2>
+
+                <p class="subtitle">
+                    Remove backgrounds from images instantly with our advanced AI
+                    technology
+                </p>
+
+            </section>
+
+            <section class="upload-container">
+
+                <div class="drop-zone" id="dropZone">
+
+                    <p>Drag &amp; Drop your image here or</p>
+
+                    <button type="button" id="selectButton">
+                        Select File
+                    </button>
+
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+
+                </div>
+
+            </section>
+
+            <section class="preview-container">
+
+                <div class="image-preview">
+
+                    <div class="original">
+                        <h3>Original Image</h3>
+
+                        <img id="originalImage" src="" alt="Original Image" hidden>
+                    </div>
+
+                    <div class="processed">
+                        <h3>Processed Image</h3>
+
+                        <img id="processedImage" src="" alt="Processed Image" hidden>
+                    </div>
+
+                </div>
+
+                <div class="controls">
+
+                    <button type="button" id="removeBackground" disabled>
+                        Remove Background
+                    </button>
+
+                    <button type="button" id="download" disabled>
+                        Download Result
+                    </button>
+
+                </div>
+
+            </section>
+
+            <section class="features">
+
+                <div class="feature-card">
+
+                    <i class="fas fa-bolt"></i>
+
+                    <h3>Lightning Fast</h3>
+
+                    <p>
+                        Process images in seconds
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fas fa-robot"></i>
+
+                    <h3>AI Powered</h3>
+
+                    <p>
+                        Advanced machine learning
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fas fa-shield-halved"></i>
+
+                    <h3>Secure</h3>
+
+                    <p>
+                        Your data stays private
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="footer-content">
+
+                <div class="footer-section">
+
+                    <h4>AstreTech</h4>
+
+                    <p>
+                        Empowering creativity through AI innovation
+                    </p>
+
+                </div>
+
+                <div class="footer-section">
+
+                    <h4>Quick Links</h4>
+
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Terms of Service</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-section">
+
+                    <h4>Connect</h4>
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="X" target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="#" aria-label="GitHub" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; 2026 YASH GUNJAL. All rights reserved.
+                </p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div class="loading" id="loading" hidden>
+
+        <div class="spinner"></div>
+
+        <p>Processing image...</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
