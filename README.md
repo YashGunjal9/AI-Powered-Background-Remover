@@ -6,45 +6,58 @@
 
 **Remove backgrounds. Transform images. Unleash creativity.**
 
-A modern, responsive web application that makes image background removal simple using AI-powered image processing.
+A modern, responsive web application that simplifies image background removal using AI-powered image processing.
 
 <br>
 
-<img src="AstreTech Black BG PNG Rounded Logo.png" alt="AstreTech Logo" width="110">
+<img src="AstreTech%20Black%20BG%20PNG%20Rounded%20Logo.png" alt="AstreTech Logo" width="110">
 
 <br>
 
-[![Project](https://img.shields.io/badge/Project-AstreTech-4F46E5?style=for-the-badge)](.)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Project](https://img.shields.io/badge/Project-AstreTech-4F46E5?style=for-the-badge)](https://github.com/YashGunjal9/AI-Powered-Background-Remover)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![API](https://img.shields.io/badge/AI-Slazzer_API-8B5CF6?style=for-the-badge)](https://www.slazzer.com/api/)
+[![Slazzer API](https://img.shields.io/badge/AI-Slazzer_API-8B5CF6?style=for-the-badge)](https://www.slazzer.com/api/)
 
 <br>
 
 [Features](#-features) •
-[Preview](#-project-preview) •
+[Screenshots](#-project-screenshots) •
+[Technologies](#-technologies-used) •
 [Installation](#-installation) •
-[How It Works](#-how-it-works) •
+[Workflow](#-how-it-works) •
 [Contributing](#-contributing)
 
 </div>
 
 ---
 
-## 📸 Project Preview
+## 📸 Project Screenshots
 
-<div align="center">
+### 🖥️ 1. Dashboard
 
-### Before & After — AI Background Removal
+The AstreTech homepage features a clean interface, image upload area, and original-versus-processed image preview.
 
-<img src="screenshots/background-remover-preview.png" alt="AstreTech AI Background Remover showing the original image and its background-removed result" width="100%">
+<p align="center">
+  <img src="Screenshots/Dashboard.png" alt="AstreTech AI Background Remover Dashboard" width="100%">
+</p>
 
-*Upload an image, process it using AI, compare the results, and download the processed image.*
+### 🖼️ 2. AI Background Removal — Before & After
 
-</div>
+Compare the original image with the AI-processed image after its background has been removed.
 
-> **Add your screenshot:** Create a `screenshots` folder in your repository and save your screenshot as `background-remover-preview.png`. The image above will appear once you commit the file.
+<p align="center">
+  <img src="Screenshots/Image%20conversion.png" alt="Original and processed image comparison" width="100%">
+</p>
+
+### ✨ 3. Features and Social Media Links
+
+Explore the feature cards, including Lightning Fast, AI Powered, and Secure, followed by the website footer with quick links and social media icons.
+
+<p align="center">
+  <img src="Screenshots/Social%20Media%20Links.png" alt="AstreTech features and footer" width="100%">
+</p>
 
 ---
 
@@ -56,14 +69,14 @@ A modern, responsive web application that makes image background removal simple 
 
 ### 🖼️ Image Upload
 
-Select an image from your device or drag and drop it into the upload area.
+Select images from your device or drag and drop them into the upload area.
 
 </td>
 <td width="50%">
 
 ### 🤖 AI Background Removal
 
-Process images using the integrated Slazzer background-removal API.
+Remove image backgrounds using the configured Slazzer API.
 
 </td>
 </tr>
@@ -72,14 +85,14 @@ Process images using the integrated Slazzer background-removal API.
 
 ### 🔍 Before & After Preview
 
-Compare the original image with the processed result side by side.
+View the original and processed images side by side.
 
 </td>
 <td width="50%">
 
 ### ⬇️ Download Results
 
-Download the processed image for use in your projects.
+Download the processed image to your device.
 
 </td>
 </tr>
@@ -88,14 +101,14 @@ Download the processed image for use in your projects.
 
 ### 📱 Responsive Interface
 
-A flexible layout designed for desktop, tablet, and mobile screens.
+Use a flexible interface designed for different screen sizes.
 
 </td>
 <td width="50%">
 
 ### ⚡ Interactive Experience
 
-Loading indicators, drag-and-drop interactions, and intuitive controls.
+Enjoy drag-and-drop functionality, image previews, and processing indicators.
 
 </td>
 </tr>
@@ -103,19 +116,19 @@ Loading indicators, drag-and-drop interactions, and intuitive controls.
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Technologies Used
 
 <div align="center">
 
-| Technology         | Purpose                                |
-| ------------------ | -------------------------------------- |
-| HTML5              | Page structure                         |
-| CSS3               | Layout, styling, and responsive design |
-| JavaScript         | Application logic and API integration  |
-| Font Awesome       | Icons and visual elements              |
-| Slazzer API        | AI-powered background removal          |
-| Visual Studio Code | Development environment                |
-| Git & GitHub       | Version control and project hosting    |
+| Technology         | Purpose                                 |
+| ------------------ | --------------------------------------- |
+| HTML5              | Website structure                       |
+| CSS3               | Styling, layouts, and responsive design |
+| JavaScript         | Application logic and API integration   |
+| Font Awesome       | Icons and visual elements               |
+| Slazzer API        | AI-powered background removal           |
+| Visual Studio Code | Development environment                 |
+| Git & GitHub       | Version control and project hosting     |
 
 </div>
 
@@ -125,45 +138,45 @@ Loading indicators, drag-and-drop interactions, and intuitive controls.
 
 ```text
        ┌─────────────────────────┐
-       │       Select Image      │
+       │      Select Image       │
        └────────────┬────────────┘
                     │
                     ▼
        ┌─────────────────────────┐
-       │   Preview Original      │
+       │    Preview Original     │
        └────────────┬────────────┘
                     │
                     ▼
        ┌─────────────────────────┐
-       │  Remove Background      │
+       │   Remove Background     │
        └────────────┬────────────┘
                     │
                     ▼
        ┌─────────────────────────┐
-       │     Slazzer API         │
+       │       Slazzer API       │
        │   AI Image Processing   │
        └────────────┬────────────┘
                     │
                     ▼
        ┌─────────────────────────┐
-       │  Preview Processed      │
-       │        Image            │
+       │   Preview Processed     │
+       │         Image           │
        └────────────┬────────────┘
                     │
                     ▼
        ┌─────────────────────────┐
-       │    Download Result      │
+       │     Download Result     │
        └─────────────────────────┘
 ```
 
 ### Processing Workflow
 
-1. Choose an image from your device.
+1. Select an image from your device.
 2. Preview the original image.
 3. Click **Remove Background**.
 4. The application sends the image to the configured Slazzer API.
 5. View the processed image.
-6. Download the result.
+6. Click **Download Result** to save the output.
 
 ---
 
@@ -173,51 +186,49 @@ Loading indicators, drag-and-drop interactions, and intuitive controls.
 
 * A modern web browser.
 * Visual Studio Code or another code editor.
-* A Slazzer API account and valid API key for background processing.
+* A valid Slazzer API key for background processing.
 
 ### 1. Clone the Repository
 
-Replace `YOUR_REPOSITORY` with your actual GitHub repository name.
-
 ```bash
-git clone https://github.com/YashGunjal9/YOUR_REPOSITORY.git
+git clone https://github.com/YashGunjal9/AI-Powered-Background-Remover.git
 ```
 
 ### 2. Open the Project
 
 ```bash
-cd YOUR_REPOSITORY
+cd AI-Powered-Background-Remover
 ```
 
 ### 3. Launch the Application
 
-* Open the project folder in Visual Studio Code.
-* Install the **Live Server** extension if you do not already have it.
-* Right-click `index.html`.
-* Select **Open with Live Server**.
+1. Open the project folder in Visual Studio Code.
+2. Install the **Live Server** extension if necessary.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
 
 ### 4. Configure API Access
 
-Configure the Slazzer API integration using the provider's current documentation.
+Configure the Slazzer API integration according to the provider's current documentation.
 
-**Security recommendation:** For a deployed application, send image-processing requests through a backend and keep the API key in a server-side environment variable. Never commit API keys to GitHub.
+**Security recommendation:** For production deployment, route API requests through a backend and store your API key in server-side environment variables. Never publish API credentials in frontend JavaScript or commit them to GitHub.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-AstreTech-AI-Background-Remover/
+AI-Powered-Background-Remover/
 │
+├── Screenshots/
+│   ├── Dashboard.png
+│   ├── Image conversion.png
+│   └── Social Media Links.png
+│
+├── AstreTech Black BG PNG Rounded Logo.png
 ├── index.html
 ├── styles.css
 ├── script.js
-│
-├── AstreTech Black BG PNG Rounded Logo.png
-│
-├── screenshots/
-│   └── background-remover-preview.png
-│
 └── README.md
 ```
 
@@ -229,7 +240,7 @@ AstreTech-AI-Background-Remover/
 * Validate uploaded image types and file sizes.
 * Handle failed API requests gracefully.
 * Hide loading indicators when processing completes or fails.
-* Follow the API provider's data-handling and privacy requirements.
+* Follow the API provider's image-handling and privacy requirements.
 
 ---
 
@@ -239,15 +250,15 @@ AstreTech-AI-Background-Remover/
 * [x] Drag-and-drop support
 * [x] Original and processed image previews
 * [x] Download controls
-* [x] Responsive UI
+* [x] Responsive interface
 * [x] Slazzer API integration
 * [ ] Secure backend API integration
 * [ ] Improved error handling
 * [ ] Image format and file-size validation
 * [ ] Processing history
-* [ ] Additional image editing tools
+* [ ] Additional image editing options
 
-*Update the checklist as features are completed in the actual project.*
+*Update this checklist as features are implemented and verified.*
 
 ---
 
@@ -257,19 +268,19 @@ Contributions, suggestions, and improvements are welcome!
 
 1. Fork this repository.
 
-2. Create a feature branch.
+2. Create a feature branch:
 
    ```bash
    git checkout -b feature/your-feature
    ```
 
-3. Commit your changes.
+3. Commit your changes:
 
    ```bash
    git commit -m "Add your feature"
    ```
 
-4. Push your branch.
+4. Push your branch:
 
    ```bash
    git push origin feature/your-feature
@@ -295,9 +306,9 @@ Computer Engineering Student | Web Development Enthusiast
 
 ## 📄 License
 
-A license has not yet been specified for this project.
+No license has been specified for this project yet.
 
-If you want others to reuse and modify your code, choose an appropriate open-source license and add its text to a `LICENSE` file in the repository.
+If you want others to reuse, modify, and distribute your code, choose an appropriate open-source license and add its text to a `LICENSE` file.
 
 ---
 
